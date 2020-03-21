@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Painting Community</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+      //Your web app's Firebase configuration
+      const firebaseConfig = {
+  apiKey: "AIzaSyC70PuHa2QMSpCQeFuz_dYA5kYU9lh3G7Y",
+  authDomain: "world-is-our-canvas-5a221.firebaseapp.com",
+  databaseURL: "https://world-is-our-canvas-5a221.firebaseio.com",
+  projectId: "world-is-our-canvas-5a221",
+  storageBucket: "world-is-our-canvas-5a221.appspot.com",
+  messagingSenderId: "269393698337",
+  appId: "1:269393698337:web:ef4fa4115e377188c68d60",
+  measurementId: "G-6LR0D2T4V2"
+};
+      // // Initialize Firebase
+      // firebase.initializeApp(firebaseConfig);
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <script src="Painter.js"></script>
+    <script src="Form.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
